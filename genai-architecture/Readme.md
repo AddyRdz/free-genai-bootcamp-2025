@@ -13,3 +13,10 @@ We're going to hook up a single serve in our office to the internet and we shoul
 
 ## Data Strategy
 There is a concerned of copyrighted materials, we must purchase and supply materials and store them for access in our database. 
+
+
+## Considerations 
+
+IBM granite because its open-source model with training data that is traceable  so copyrighted issues can be avoided.
+
+https://huggingface.co/ibm-granite
