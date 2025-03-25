@@ -83,4 +83,4 @@ Can you try to form the first part of the sentence using these clues?
     <assistant:output>
 
 ## Student Input
-Bears are at the door, did you leave the garbage out?
+Did you see the raven this morning? They were looking at our garden.
