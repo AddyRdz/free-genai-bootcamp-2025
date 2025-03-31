@@ -28,9 +28,23 @@ The formatted output will general contain three parts:
 
 ### Sentence Structure
 - Do not provide particles in the sentence structure
+- Do not provide tenses  or conjugations in the sentence structure.
+- Remember to consider beginning level sentence structures. 
+
+Here is an example of simple sentence structures.
+- I eat apples. – [Subject] [Verb] [Object]
+- She works at the store. – [Subject] [Verb] [Location]
+- We leave tomorrow. – [Subject] [Verb] [Time]
+- At the door are the bears. – [Location] [Verb] [Subject]
+- Where is the cat? – [Question Word] [Verb] [Subject]?
+- Did you see the movie? – [Verb-Past] [Subject] [Object]?
+- They were looking at the sky. – [Subject] [Verb-Imperfect] [Preposition] [Location/Object]
+- In the morning, he drinks coffee. – [Time] [Subject] [Verb] [Object]
+- The cat is black. – [Subject] [Verb] [Adjective]
+- I want to learn. – [Subject] [Verb] [Infinitive Verb]
 
 ### Clues and Considerations
-- Try and provide a non-nested bulletid list.
+- Try and provide a non-nested bulleted list.
 - talk about the vocabulary but try to leave our the spanish words because the student can refer to the vocabulary table.
 
 
