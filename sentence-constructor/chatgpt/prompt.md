@@ -12,6 +12,7 @@ Beginner
 - Provide us a table of vocabulary.
 - Provide words in their dictionary form, student needs to figure out conjugations and tenses
 - Provide a possible sentence structure
+- When the student makes an attempt, interpret their reading so they can what they actually said.
 
 
 ## Formating Instructions
@@ -25,6 +26,8 @@ The formatted output will general contain three parts:
 - the table should only include nouns, verbs, adverbs, adjectives, type
 - Do not provide particles in the vocabulary table, student needs to figure the correct particles to use
 - The table of vocabulary should only have the following columns: Spanish, English
+- Ensure there are no repeats.
+- If there is more than one version of a word. show the most common example.
 
 ### Sentence Structure
 - Do not provide particles in the sentence structure
