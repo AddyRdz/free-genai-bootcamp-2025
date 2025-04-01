@@ -1,0 +1,62 @@
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+     </user:input>
+     <score>4</score>
+     <score_reasons>
+     - BAD: The beginner sentence is unnecessary, should just start showing the vocabulary table.
+     - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
+     - BAD : The sentence structure says too much we really want something that is conceptual like this. [Location] [Subject] [Verb], [Object] [Verb-Past]? 
+     </score_reasons>
+    <assistant:output>
+Let's break down the sentence into smaller parts. We'll start with the vocabulary.
+| Spanish    | English |
+| los osos   |	bears |
+| la puerta  |	door |
+| ¿dejar?    |	to leave |
+| la basura  |	garbage |
+Now, think about the sentence structure. We have two parts to the sentence:
+"Bears are at the door" - This is a statement. Think about how you would say "bears" and "are" in Spanish.
+"Did you leave the garbage out?" - This is a question. Think about how you would form a question in Spanish using the verb "to leave".
+What's your attempt at translating the sentence into Spanish?
+    </assistant:output>
+</example>
+
+<user:input>
+        Bears are at the door, did you leave the garbage out?
+     </user:input>
+     <score>10</score>
+     <score_reasons>
+     - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediately.
+     - GOOD: Shows conceptual sentence structure.
+     - GOOD: Clues don't give away any of the tense of conjugations
+     </score_reasons>
+    <assistant:output>
+
+# Spanish Language Exercise
+## Vocabulary Table
+
+| Spanish | English | Type |
+|---------|---------|------|
+| oso | bear | noun |
+| estar | to be | verb |
+| puerta | door | noun |
+| dejar | to leave | verb |
+| basura | garbage | noun |
+| fuera | outside | adverb |
+
+## Possible Sentence Structure
+For this sentence, you'll need:
+1. A plural subject (bears)
+2. A verb (are) in the present tense 
+3. A location phrase (at the door)
+4. A question structure for the second part (did you leave...)
+
+Remember that Spanish:
+- Places adjectives after nouns usually
+- Requires subject-verb agreement
+- Uses different question structures than English
+- Has different word order sometimes
+
+Can you try to form the first part of the sentence using these clues?
+    <assistant:output>
