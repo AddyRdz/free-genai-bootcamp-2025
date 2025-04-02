@@ -111,7 +111,7 @@ Remember that Spanish:
 - Has different word order sometimes
 
 Can you try to form the first part of the sentence using these clues?
-    </assistant:output>
+    <assistant:output>
 </example>
 
 ## Student Input

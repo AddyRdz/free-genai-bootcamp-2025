@@ -6,7 +6,7 @@
      <score_reasons>
      - BAD: The beginner sentence is unnecessary, should just start showing the vocabulary table.
      - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-     - BAD : The sentence structure says too much we really want something that is conceptual like this. [Location] [Subject] [Verb], [Object] [Verb-Past]? 
+     - BAD: The sentence structure says too much we really want something that is conceptual like this. [Location] [Subject] [Verb], [Object] [Verb-Past]? 
      </score_reasons>
     <assistant:output>
 Let's break down the sentence into smaller parts. We'll start with the vocabulary.
@@ -59,4 +59,5 @@ Remember that Spanish:
 - Has different word order sometimes
 
 Can you try to form the first part of the sentence using these clues?
-    <assistant:output>
+    </assistant:output>
+</example>
