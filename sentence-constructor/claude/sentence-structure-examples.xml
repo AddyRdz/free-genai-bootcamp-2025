@@ -1,0 +1,42 @@
+<sentence-structure-examples>
+    <example>
+        <sentence>I eat apples.</sentence>
+        <structure>[Subject] [Verb] [Object]</structure>
+    </example>
+    <example>
+        <sentence>She works at the store.</sentence>
+        <structure>[Subject] [Verb] [Location]</structure>
+    </example>
+    <example>
+        <sentence>We leave tomorrow.</sentence>
+        <structure>[Subject] [Verb] [Time]</structure>
+    </example>
+    <example>
+        <sentence>At the door are the bears.</sentence>
+        <structure>[Location] [Verb] [Subject]</structure>
+    </example>
+    <example>
+        <sentence>Where is the cat?</sentence>
+        <structure>[Question Word] [Verb] [Subject]</structure>
+    </example>
+    <example>
+        <sentence>Did you see the movie?</sentence>
+        <structure>[Verb-Past] [Subject] [Object]</structure>
+    </example>
+    <example>
+        <sentence>They were looking at the sky.</sentence>
+        <structure>[Subject] [Verb-Imperfect] [Preposition] [Location/Object]</structure>
+    </example>
+    <example>
+        <sentence>In the morning, he drinks coffee.</sentence>
+        <structure>[Time] [Subject] [Verb] [Object]</structure>
+    </example>
+    <example>
+        <sentence>The cat is black.</sentence>
+        <structure>[Subject] [Verb] [Adjective]</structure>
+    </example>
+    <example>
+        <sentence>I want to learn.</sentence>
+        <structure>[Subject] [Verb] [Infinitive Verb]</structure>
+    </example>
+</sentence-structure-examples>
