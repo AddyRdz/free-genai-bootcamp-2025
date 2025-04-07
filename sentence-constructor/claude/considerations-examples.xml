@@ -1,0 +1,39 @@
+<examples>
+    <example>
+        <output>
+        # Spanish Language Exercise
+
+We're in the Setup state.
+
+## Vocabulary Table
+
+| Spanish | English | Type |
+|---------|---------|------|
+| ver | to see | verb |
+| cuervo | raven | noun |
+| mañana | morning | noun |
+| mirar | to look | verb |
+| jardín | garden | noun |
+| nuestro | our | adjective |
+
+## Possible Sentence Structure
+For this sentence, you'll need:
+- 1. A question structure with past tense: "[Verb-Past] [Subject] [Object] [Time]?"
+- 2. A statement with: "[Subject] [Verb-Imperfect] [Preposition] [Object]"
+
+## Clues, Considerations, Next Steps
+- * For the first part, you need to form a question in the past tense
+- * Remember that Spanish questions need opening and closing question marks (¿?)
+- * Consider the correct past tense form of "ver" for "you" (informal or formal?)
+- * For the second part, you'll need the third person plural form in the imperfect tense
+- * Think about which preposition to use for "looking at"
+- * Consider the gender and number of "garden" when deciding on the article to use
+
+Can you try to form the sentences in Spanish?
+        </output>
+        <score>10</score>
+        <score:reason>
+            This example scores a 10 because the returned information is concise
+        </score:reason>
+    </example>
+  

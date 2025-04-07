@@ -88,6 +88,7 @@ Here is an example of simple sentence structures.
 ### Clues and Considerations, Next Steps
 - Try and provide a non-nested bulleted list.
 - talk about the vocabulary but try to leave our the spanish words because the student can refer to the vocabulary table.
+- Reference the <file>considerations-examples.xml</file> for good structure examples
 
 
 ## Student Input
