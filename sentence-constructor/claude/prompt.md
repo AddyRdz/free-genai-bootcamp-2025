@@ -90,6 +90,14 @@ Here is an example of simple sentence structures.
 - talk about the vocabulary but try to leave our the spanish words because the student can refer to the vocabulary table.
 - Reference the <file>considerations-examples.xml</file> for good structure examples
 
+## Teacher Tests
+Please read this file so you can see more examples to provide better output. 
+<file>spanish-teaching-tests.xml</file>
+
+## Last Checks
+- Make sure you read all the example files tell me that you have.
+- Make sure you check how many columns there are in the vocab table.
+- Make sure you reach the structure examples file
 
 ## Student Input
 Did you see the raven this morning? They were looking at our garden.

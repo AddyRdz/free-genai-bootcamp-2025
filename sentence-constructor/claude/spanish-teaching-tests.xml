@@ -1,0 +1,236 @@
+<examples xmlns:score="http://example.com/score">
+    <!-- SENTENCE COMPLEXITY EXAMPLES -->
+    <example>
+        <input>The girl eats an apple.</input>
+        <state>Setup</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Setup state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | niña | girl | noun |
+            | comer | to eat | verb |
+            | manzana | apple | noun |
+            
+            ## Possible Sentence Structure
+            For this sentence, you'll need:
+            - [Subject] [Verb] [Object]
+            
+            ## Clues, Considerations, Next Steps
+            * Think about the gender and number agreement for articles
+            * Consider the correct present tense conjugation of "comer" for third person singular
+            * Remember that Spanish typically uses articles even with general objects
+            
+            Can you try to form this sentence in Spanish?
+        </output>
+        <score:score>10</score:score>
+        <score:reason>
+            This example clearly shows the vocabulary needed without conjugations, provides a clear structure, and gives helpful clues without giving away the answer.
+        </score:reason>
+    </example>
+    
+    <!-- TENSE EXAMPLES -->
+    <example>
+        <input>I went to the store but they were closed.</input>
+        <state>Setup</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Setup state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | ir | to go | verb |
+            | tienda | store | noun |
+            | pero | but | conjunction |
+            | estar | to be | verb |
+            | cerrado | closed | adjective |
+            
+            ## Possible Sentence Structure
+            For this sentence, you'll need:
+            - [Subject] [Verb-Past] [Preposition] [Object] [Conjunction] [Subject] [Verb-Past] [Adjective]
+            
+            ## Clues, Considerations, Next Steps
+            * This sentence requires two different past tenses: preterite and imperfect
+            * Consider which tense would be appropriate for a completed action (going)
+            * Consider which tense would be appropriate for a state or condition (being closed)
+            * Remember the correct preposition to use with "ir" when indicating destination
+            
+            Can you try to form this sentence in Spanish?
+        </output>
+        <score:score>9</score:score>
+        <score:reason>
+            Provides clear vocabulary and structure guidance for a challenging sentence with two past tenses. Gives helpful clues about tense selection without providing conjugated forms.
+        </score:reason>
+    </example>
+    
+    <!-- QUESTION FORMAT EXAMPLES -->
+    <example>
+        <input>Where did you buy those shoes?</input>
+        <state>Setup</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Setup state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | dónde | where | question word |
+            | comprar | to buy | verb |
+            | zapato | shoe | noun |
+            | ese | that/those | demonstrative |
+            
+            ## Possible Sentence Structure
+            For this sentence, you'll need:
+            - [Question Word] [Verb-Past] [Subject] [Demonstrative] [Object]
+            
+            ## Clues, Considerations, Next Steps
+            * Remember that Spanish questions need opening and closing question marks (¿?)
+            * Consider the correct past tense form of "comprar"
+            * Think about the number (plural) for "shoes" and matching the demonstrative
+            * Remember that Spanish often omits subject pronouns, especially in questions
+            
+            Can you try to form this question in Spanish?
+        </output>
+        <score:score>10</score:score>
+        <score:reason>
+            Excellent example showing question formation with appropriate vocabulary. Includes important reminders about Spanish question punctuation and grammatical considerations.
+        </score:reason>
+    </example>
+    
+    <!-- EDGE CASE EXAMPLES -->
+    <example>
+        <input>I hope that you arrive on time.</input>
+        <state>Setup</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Setup state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | esperar | to hope | verb |
+            | que | that | conjunction |
+            | llegar | to arrive | verb |
+            | a tiempo | on time | adverbial phrase |
+            
+            ## Possible Sentence Structure
+            For this sentence, you'll need:
+            - [Subject] [Verb] [Conjunction] [Subject] [Verb] [Adverbial Phrase]
+            
+            ## Clues, Considerations, Next Steps
+            * This sentence involves a main clause followed by a subordinate clause
+            * Consider which mood (indicative or subjunctive) should be used after "esperar que"
+            * Remember that Spanish often omits subject pronouns when clear from context
+            * Think about which tense to use in both clauses
+            
+            Can you try to form this sentence in Spanish?
+        </output>
+        <score:score>10</score:score>
+        <score:reason>
+            Excellent guidance for a sentence requiring subjunctive mood without giving away this grammatical point directly. Vocabulary and structure are clearly presented.
+        </score:reason>
+    </example>
+    
+    <!-- STUDENT RESPONSE SIMULATIONS -->
+    <example>
+        <input>Yesterday we went to the beach.</input>
+        <state>Setup</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Setup state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | ayer | yesterday | adverb |
+            | ir | to go | verb |
+            | playa | beach | noun |
+            
+            ## Possible Sentence Structure
+            For this sentence, you'll need:
+            - [Time] [Subject] [Verb-Past] [Preposition] [Object]
+            
+            ## Clues, Considerations, Next Steps
+            * Consider which past tense (preterite or imperfect) is appropriate for a completed action
+            * Remember to include the correct preposition after "ir"
+            * Think about whether a definite article is needed with "playa"
+            
+            Can you try to form this sentence in Spanish?
+        </output>
+        <score:score>9</score:score>
+        <score:reason>
+            Good setup for a sentence requiring past tense and preposition usage.
+        </score:reason>
+    </example>
+    
+    <example>
+        <input>Ayer nosotros vamos a la playa.</input>
+        <state>Attempt</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Attempt state.
+            
+            ## Vocabulary Table
+            
+            | Spanish | English | Type |
+            |---------|---------|------|
+            | ayer | yesterday | adverb |
+            | ir | to go | verb |
+            | playa | beach | noun |
+            
+            ## Your translation means:
+            "Yesterday we go to the beach."
+            
+            ## Clues, Considerations, Next Steps
+            * Good job using "ayer" at the beginning and the correct preposition "a"
+            * Notice that you used the present tense "vamos" (we go) but the sentence refers to yesterday
+            * When talking about completed actions in the past, you need to use the preterite tense
+            * The verb "ir" is irregular in the preterite tense
+            * The rest of your sentence is correct - good use of "la" with "playa"
+            
+            Would you like to try again with the correct past tense?
+        </output>
+        <score:score>10</score:score>
+        <score:reason>
+            Excellent feedback that points out what was correct and specifically identifies the tense error without giving away the conjugation.
+        </score:reason>
+    </example>
+    
+    <!-- STATE TRANSITION EXAMPLE -->
+    <example>
+        <input>How do I conjugate "ir" in the past tense?</input>
+        <state>Clues</state>
+        <output>
+            # Spanish Language Exercise
+            
+            We're in the Clues state.
+            
+            ## Clues, Considerations, Next Steps
+            * "Ir" (to go) is an irregular verb in the preterite (past) tense
+            * The preterite forms don't follow the regular pattern you might expect
+            * Think about how to say "I went," "you went," "he/she went," etc.
+            * Many common Spanish verbs are irregular in the preterite
+            * Try to recall the pattern for this specific verb, as it's used frequently
+            
+            Would you like more specific hints about forming the preterite of "ir"?
+        </output>
+        <score:score>8</score:score>
+        <score:reason>
+            Good transition to the Clues state with helpful guidance without giving the full conjugation. Could be more specific about what makes "ir" irregular.
+        </score:reason>
+    </example>
+</examples>

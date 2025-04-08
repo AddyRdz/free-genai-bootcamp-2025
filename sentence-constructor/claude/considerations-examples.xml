@@ -1,4 +1,4 @@
-<examples>
+<examples xmlns:score="http://example.com/score">
     <example>
         <output>
         # Spanish Language Exercise
@@ -31,9 +31,10 @@ For this sentence, you'll need:
 
 Can you try to form the sentences in Spanish?
         </output>
-        <score>10</score>
+        <score:score>10</score:score>
         <score:reason>
             This example scores a 10 because the returned information is concise
         </score:reason>
     </example>
+</examples>
   
