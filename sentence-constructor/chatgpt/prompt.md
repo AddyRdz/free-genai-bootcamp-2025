@@ -51,39 +51,36 @@ Here is an example of simple sentence structures.
 - talk about the vocabulary but try to leave our the spanish words because the student can refer to the vocabulary table.
 
 <example>
-    <user:input>
-        Bears are at the door, did you leave the garbage out?
-     </user:input>
-     <score>4</score>
-     <score_reasons>
-     - BAD: The beginner sentence is unnecessary, should just start showing the vocabulary table.
-     - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-     - BAD: The sentence structure says too much we really want something that is conceptual like this. [Location] [Subject] [Verb], [Object] [Verb-Past]? 
-     </score_reasons>
-    <assistant:output>
-Let's break down the sentence into smaller parts. We'll start with the vocabulary.
-| Spanish    | English |
-| los osos   |	bears |
-| la puerta  |	door |
-| ¿dejar?    |	to leave |
-| la basura  |	garbage |
-Now, think about the sentence structure. We have two parts to the sentence:
-"Bears are at the door" - This is a statement. Think about how you would say "bears" and "are" in Spanish.
-"Did you leave the garbage out?" - This is a question. Think about how you would form a question in Spanish using the verb "to leave".
-What's your attempt at translating the sentence into Spanish?
-    </assistant:output>
-</example>
+  <user:input>
+    Bears are at the door, did you leave the garbage out?
+  </user:input>
 
-<user:input>
-        Bears are at the door, did you leave the garbage out?
-     </user:input>
-     <score>10</score>
-     <score_reasons>
-     - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediately.
-     - GOOD: Shows conceptual sentence structure.
-     - GOOD: Clues don't give away any of the tense of conjugations
-     </score_reasons>
-    <assistant:output>
+  <score>4</score>
+
+  <score_reasons>
+    BAD: The beginner sentence is unnecessary, should just start showing the vocabulary table.
+    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
+    - BAD: The sentence structure says too much. We really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-Past]?
+  </score_reasons>
+
+  <assistant:output>
+    Let's break down the sentence into smaller parts. We'll start with the vocabulary.
+
+    | Spanish     | English  |
+    |-------------|----------|
+    | los osos    | bears    |
+    | la puerta   | door     |
+    | ¿dejar?     | to leave |
+    | la basura   | garbage  |
+
+    Now, think about the sentence structure. We have two parts to the sentence:
+
+    "Bears are at the door" – This is a statement. Think about how you would say "bears" and "are" in Spanish.  
+    "Did you leave the garbage out?" – This is a question. Think about how you would form a question in Spanish using the verb "to leave".
+
+    What's your attempt at translating the sentence into Spanish?
+  </assistant:output>
+</example>
 
 # Spanish Language Exercise
 ## Vocabulary Table
